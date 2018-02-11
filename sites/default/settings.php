@@ -83,18 +83,12 @@ $settings['trusted_host_patterns'] = array(
   /* Bodigiti Domains */
   '^bodigiti\.net$',
   '^.+\.bodigiti\.net$',
-  /* Pantheon Domains */
-  '^pantheonsite\.io$',
-  '^.+\.pantheonsite\.io$',
-  /* Bodigiti Domains */
-  '^opben\.com$',
-  '^.+\.opben\.com$',
-  /* TomNehl Domain */
+  /* TomNehl.NET Domain */
   '^tomnehl\.net$',
   '^.+\.tomnehl\.net$',
   /* TomNehl Domain */
-  '^tomnehl\.com$',
-  '^.+\.tomnehl\.com$',
+  '^nflwesternstar\.com$',
+  '^.+\.nflwesternstar\.com$',
 );
 
 /**
