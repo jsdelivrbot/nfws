@@ -71,4 +71,4 @@ Disallow: /index.php/user/logout/
 User-agent: Googlebot
 Allow: *.css
 Allow: *.js
-Sitemap: https://www.tomnehl.com/sitemap.xml
+Sitemap: https://www.nflwesternstar.com/sitemap.xml
