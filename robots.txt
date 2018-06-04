@@ -14,7 +14,6 @@
 # http://www.robotstxt.org/robotstxt.html
 
 User-agent: *
-
 # CSS, JS, Images
 Allow: /core/*.css$
 Allow: /core/*.css?
@@ -34,15 +33,12 @@ Allow: /profiles/*.jpg
 Allow: /profiles/*.jpeg
 Allow: /profiles/*.png
 Allow: /profiles/*.svg
-#
 # Directories
 Disallow: /core/
 Disallow: /profiles/
-#
 # Files
 Disallow: /README.txt
 Disallow: /web.config
-#
 # Paths (clean URLs)
 Disallow: /admin/
 Disallow: /comment/reply/
@@ -53,9 +49,6 @@ Disallow: /user/register/
 Disallow: /user/password/
 Disallow: /user/login/
 Disallow: /user/logout/
-Disallow: /thank-you/
-Disallow: /styleguide/
-#
 # Paths (no clean URLs)
 Disallow: /index.php/admin/
 Disallow: /index.php/comment/reply/
@@ -66,9 +59,3 @@ Disallow: /index.php/user/password/
 Disallow: /index.php/user/register/
 Disallow: /index.php/user/login/
 Disallow: /index.php/user/logout/
-#
-#
-User-agent: Googlebot
-Allow: *.css
-Allow: *.js
-Sitemap: https://www.nflwesternstar.com/sitemap.xml
