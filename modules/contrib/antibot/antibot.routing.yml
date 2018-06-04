@@ -4,12 +4,12 @@ antibot.settings:
     _form: '\Drupal\antibot\Form\AntibotSettings'
     _title: 'Antibot settings'
   requirements:
-    _permission: 'access administration pages'
+    _permission: 'administer antibot configuration'
   options:
     _admin_route: TRUE
 
 antibot.antibot:
-  path: 'antibot'
+  path: '/antibot'
   defaults:
     _controller: '\Drupal\antibot\Controller\AntibotPage::page'
     _title: 'Submission failed'
